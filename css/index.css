@@ -1,0 +1,153 @@
+
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.sb{
+    text-align: center;
+    margin-right: 80px;
+    color: #fff;
+    background-color: #45CE30;
+    border-color: #45CE30;
+    outline: none;
+    padding: .475rem .75rem;
+    margin-top: 20px;
+}
+
+.cl{
+    padding: .475rem .75rem;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fff;
+    background-color:#FF4848;
+
+
+}
+
+#border{
+    height: 420px;
+    width: 400px;
+    margin: 20px;
+    border: solid;
+}
+
+
+
+#first{
+    margin-top: 08px
+}
+
+.pwd{
+    margin-top: 20px;
+}
+
+#pass1{
+    margin-top: 20px;
+}
+
+#e2{
+    margin-top: 20px;
+}
+
+.em{
+    margin-top: 10px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+ul li{
+  float: left;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  opacity: .9;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 1px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+ul li a:hover{
+  background: green;
+  cursor: pointer;
+}
+ul li ul li{
+  display: none;
+  cursor: pointer;
+}
+ul li:hover ul li{
+  display: block;
+  cursor: pointer;
+}
+
+body{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "email"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "email"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "button"]:hover{
+  background: #2ecc71;
+}
+.cc:hover{
+    background: #4f51bd;
+}
